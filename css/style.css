@@ -25,6 +25,11 @@ p{
     height: 20rem;
 }
 
+#jl:hover{
+    transition: 0.2s;
+    transform: rotate(20deg);
+}
+
 .link-img{
     height: 4rem;
 }
