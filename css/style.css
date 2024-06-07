@@ -4,6 +4,7 @@
     padding: 0.3rem;
 }
 body{
+    height: 90vh;
     background-color: rgb(15, 15, 15);
     display: flex;
     align-items: center;
@@ -29,19 +30,18 @@ p{
 }
 
 #card-container{
-    margin-top: 1.3rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 90vh;
+    width: 95%;
     background-color: rgb(5, 5, 5);
     border-radius: 2%;
 }
 #hr{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    width: 90vw;
+    width: 70vw;
     height: 3px;
     background: rgb(152,88,38);
     background: linear-gradient(90deg, rgba(152,88,38,1) 0%, rgba(248,237,153,1) 50%, rgba(152,88,38,1) 100%);
