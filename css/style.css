@@ -34,14 +34,14 @@ p{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 95%;
+    width: 40%;
     background-color: rgb(5, 5, 5);
     border-radius: 2%;
 }
 #hr{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    width: 70vw;
+    width: 30vw;
     height: 3px;
     background: rgb(152,88,38);
     background: linear-gradient(90deg, rgba(152,88,38,1) 0%, rgba(248,237,153,1) 50%, rgba(152,88,38,1) 100%);
@@ -66,4 +66,21 @@ p{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 900px) {
+
+    #card-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(5, 5, 5);
+        border-radius: 2%;
+    }
+    body{
+        background-color: rgb(5, 5, 5); 
+    }
 }
