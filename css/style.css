@@ -41,7 +41,7 @@ p{
 #hr{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    width: 70vw;
+    width: 90vw;
     height: 3px;
     background: rgb(152,88,38);
     background: linear-gradient(90deg, rgba(152,88,38,1) 0%, rgba(248,237,153,1) 50%, rgba(152,88,38,1) 100%);
