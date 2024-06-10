@@ -1,80 +1,25 @@
 *{
     margin: 0;
-    color: rgb(152,88,38);
     padding: 0.3rem;
 }
 body{
-    height: 90vh;
-    background-color: rgb(15, 15, 15);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-p, h1, h2{
-    background: #985826;
-    background: linear-gradient(to top, #985826 0%, #F8ED99 50%, #985826 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+    background-color: black;
+    background-image: url(https://i.redd.it/i4i4iskatr5d1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
 
-p{
-    font-size: larger;
-}
-
-#logo-img{
-    height: 20rem;
-}
-
-#jl:hover{
-    transition: 0.2s;
-    transform: rotate(20deg);
-}
-
-.link-img{
-    height: 4rem;
 }
 
 #card-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 40%;
-    background-color: rgb(5, 5, 5);
-    border-radius: 2%;
-}
-#hr{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    width: 30vw;
-    height: 3px;
-    background: rgb(152,88,38);
-    background: linear-gradient(90deg, rgba(152,88,38,1) 0%, rgba(248,237,153,1) 50%, rgba(152,88,38,1) 100%);
-    border-radius: 10%;
-    padding: 0px;
-}
-
-.link-container{
-    text-align: center;
-    padding: 0.5rem;
-}
-
-.link-container:hover{
-    transition: 0.2s;
-    scale: 1.2;
-
-}
-
-#social-container{
-    margin-top: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display: none
 }
 
 @media (max-width: 900px) {
 
+    #spline-viewer{
+        display: none;
+    }
     #card-container{
         display: flex;
         align-items: center;
@@ -86,6 +31,71 @@ p{
         border-radius: 2%;
     }
     body{
+        
         background-color: rgb(5, 5, 5); 
+        height: 90vh;
+        background-color: rgb(15, 15, 15);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+    *{
+        margin: 0;
+        color: rgb(152,88,38);
+        padding: 0.3rem;
+    }
+    p, h1, h2{
+        background: #985826;
+        background: linear-gradient(to top, #985826 0%, #F8ED99 50%, #985826 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    p{
+        font-size: larger;
+    }
+    
+    #logo-img{
+        height: 20rem;
+    }
+    
+    #jl:hover{
+        transition: 0.2s;
+        transform: rotate(20deg);
+    }
+    
+    .link-img{
+        height: 4rem;
+    }
+    
+    #hr{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 30vw;
+        height: 3px;
+        background: rgb(152,88,38);
+        background: linear-gradient(90deg, rgba(152,88,38,1) 0%, rgba(248,237,153,1) 50%, rgba(152,88,38,1) 100%);
+        border-radius: 10%;
+        padding: 0px;
+    }
+    
+    .link-container{
+        text-align: center;
+        padding: 0.5rem;
+    }
+    
+    .link-container:hover{
+        transition: 0.2s;
+        scale: 1.2;
+    
+    }
+    
+    #social-container{
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
