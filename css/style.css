@@ -3,7 +3,6 @@
     padding: 0.3rem;
 }
 body{
-    display: flex;
     background-color: black;
     background-image: url(https://i.redd.it/i4i4iskatr5d1.png);
     background-repeat: no-repeat;
@@ -11,9 +10,10 @@ body{
     height: 95vh;
 
 }
-    #spline-viewer{
-        display: flex;
-    }
+
+#card-container{
+    display: none
+}
 
 @media (max-width: 900px) {
 
