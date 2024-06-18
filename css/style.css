@@ -12,9 +12,6 @@ body{
 
 }
 
-#card-container{
-    display: none
-}
 
 @media (max-width: 900px) {
 
